@@ -1,0 +1,139 @@
+#repairshopheader{
+    color: red;
+}
+
+.headerabove{
+    background-color: #121212;
+    width:100%;
+    height: 12%;
+    margin:0px;
+    padding:0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+#headerbelow{
+    background-color:#121212;
+    width:100%;
+    height:60px;
+    margin:0px;
+    padding:0px;
+    top: 110px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #BC1823;
+    position: fixed;
+}
+
+.big_button{
+    margin-left: 0;
+    margin-top: 0px;
+    border-radius: 1.5em;
+    width: 15%;
+    height: 40%;
+    background-color: #121212;
+    text-decoration: none;
+    color: #ECC473;
+    font-size:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .1em solid #BC1823;
+}
+
+.big_button:hover{
+    background-color: #A3151E;
+    border: .1em solid #ECC473;
+}
+
+.mapsite_buttons{
+    font-size: 2rem;
+    text-decoration: none;
+    color:#ECC473;
+    padding-left:20px;
+    padding-right:20px; 
+    border: 3px solid #121212;
+    border-radius: 5px;
+}
+
+.mapsite_buttons:hover{
+    border: 3px solid #ECC473;
+    background-color:#BC1823;
+    border-radius: 5px
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #121212;
+
+}
+
+.gear_img{
+    height: 90%;
+    padding-top:0%;
+}
+
+.transmission_img{
+    width: 100%;
+}
+
+.address_info{
+    color: #ECC473;
+    font-size:1em;
+}
+
+.main_body_text{
+    font-size:2rem;
+    color:#ECC473;
+    width:100%;
+    height:1%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    padding-top: 3%;
+    padding-bottom:3%;
+    border-top:5px solid #BC1823;
+    border-bottom:5px solid #BC1823;
+}
+
+.services{
+    width:80%;
+    height:55%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+    background-color: none;
+}
+.services_text{
+    color:#ECC473;
+    font-size:2rem;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    border-bottom:5px solid #BC1823;
+    border-top:5px solid #BC1823;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.services_img{
+    width:45%;
+    padding-left: 2%;
+    padding-right:2%;
+}
+
+.footer{
+    font-size:1em;
+    color:#ECC473;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:.5em;
+    padding-bottom:.5em;
+}
